@@ -22,6 +22,12 @@
 		},
 		"LS_source_SQLDB_properties_typeProperties_userName": {
 			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
 		}
 	}
 }
