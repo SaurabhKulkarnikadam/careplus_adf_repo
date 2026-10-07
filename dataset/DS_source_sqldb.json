@@ -1,0 +1,29 @@
+{
+	"name": "DS_source_sqldb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_source_SQLDB",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"table_name": {
+				"type": "string"
+			},
+			"load_mode": {
+				"type": "string"
+			},
+			"WatermarkColumn": {
+				"type": "string"
+			},
+			"WatermarkValue": {
+				"type": "string"
+			},
+			"lastFileFormat": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
